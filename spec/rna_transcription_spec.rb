@@ -12,4 +12,7 @@ describe "dna_to_rna" do
   it "rna conversion of thymine to adenine" do
     expect(dna_to_rna("T")).to eq "A"
   end
+  it "rna conversion of adenine to uracil" do
+    expect(dna_to_rna("A")).to eq "U"
+  end
 end
