@@ -6,6 +6,8 @@ def dna_to_rna(dna)
       rna += 'G'
     when 'G'
       rna += 'C'
+    when 'T'
+      rna += 'A'
     else
       next
     end
