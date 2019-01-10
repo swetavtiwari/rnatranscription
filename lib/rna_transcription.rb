@@ -1,9 +1,11 @@
 def dna_to_rna(dna)
-  rna=""
-  dna.upcase.each_char  do |i|
+  rna = ""
+  dna.upcase.each_char do |i|
     case i
     when 'C'
-      rna+='G'
+      rna += 'G'
+    when 'G'
+      rna += 'C'
     else
       next
     end
