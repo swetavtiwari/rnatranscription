@@ -12,7 +12,6 @@ def dna_to_rna(dna)
       rna += 'U'
     else
       next
-      # same as continue
     end
   end
   rna
